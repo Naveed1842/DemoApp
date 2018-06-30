@@ -1,0 +1,22 @@
+<div class="table-responsive">
+  <table class="table table-striped table-bordered">
+    <thead class="thead-default">
+      <tr>
+        <th>Identifier</th>
+        <th>Firstname</th>
+        <th>Gender</th>
+        <th>Birthdate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let patient of patient_results">
+        <td>{{patient.identifiers[0].identifier}}</td>
+        <td>{{patient.person.display}}</td>
+        <td>{{patient.person.gender}}</td>
+        <td *ngIf="patient.person.birthdate">{{patient.person.birthdate.split('T')[0] |date:'dd/MM/yyyy'}}</td>
+        <td *ngIf="!patient.person.birthdate">N/A</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

@@ -1,0 +1,287 @@
+[
+      {
+        "uuid": "afdf026c-3595-4ebf-907a-0b88e82a4ad2",
+        "display": "1008M9 - Umar Ahmed",
+        "identifiers": [
+          {
+            "display": "OpenMRS ID = 1008M9",
+            "uuid": "dca1e273-2349-4303-9c39-1a402e0e7b23",
+            "identifier": "1008M9",
+            "identifierType": {
+              "uuid": "05a29f94-c0ed-11e2-94be-8c13b969e334",
+              "display": "OpenMRS ID",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/patientidentifiertype/05a29f94-c0ed-11e2-94be-8c13b969e334"
+                }
+              ]
+            },
+            "location": {
+              "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+              "display": "Shifa Ophthalmology",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/location/aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+                }
+              ]
+            },
+            "preferred": true,
+            "voided": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/patient/afdf026c-3595-4ebf-907a-0b88e82a4ad2/identifier/dca1e273-2349-4303-9c39-1a402e0e7b23"
+              },
+              {
+                "rel": "full",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/patient/afdf026c-3595-4ebf-907a-0b88e82a4ad2/identifier/dca1e273-2349-4303-9c39-1a402e0e7b23?v=full"
+              }
+            ],
+            "resourceVersion": "1.8"
+          }
+        ],
+        "person": {
+          "uuid": "afdf026c-3595-4ebf-907a-0b88e82a4ad2",
+          "display": "Umar Ahmed",
+          "gender": "Male",
+          "age": 27,
+          "birthdate": "1990-11-12T00:00:00.000+0500",
+          "birthdateEstimated": false,
+          "dead": false,
+          "deathDate": null,
+          "causeOfDeath": null,
+          "preferredName": {
+            "display": "Umar Ahmed",
+            "uuid": "f76c8396-7d7e-47f3-bb16-40ff41e04988",
+            "givenName": "Umar",
+            "middleName": null,
+            "familyName": "Ahmed",
+            "familyName2": null,
+            "voided": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/name/f76c8396-7d7e-47f3-bb16-40ff41e04988"
+              },
+              {
+                "rel": "full",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/name/f76c8396-7d7e-47f3-bb16-40ff41e04988?v=full"
+              }
+            ],
+            "resourceVersion": "1.8"
+          },
+          "preferredAddress": {
+            "display": "H #5 Street # 9 Bahria Phase IV",
+            "uuid": "48d90d78-21db-4393-ad04-a619ff013d0b",
+            "preferred": true,
+            "address1": "H #5 Street # 9 Bahria Phase IV",
+            "address2": null,
+            "cityVillage": null,
+            "stateProvince": null,
+            "country": null,
+            "postalCode": null,
+            "countyDistrict": null,
+            "address3": null,
+            "address4": null,
+            "address5": null,
+            "address6": null,
+            "startDate": null,
+            "endDate": null,
+            "latitude": null,
+            "longitude": null,
+            "voided": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/address/48d90d78-21db-4393-ad04-a619ff013d0b"
+              },
+              {
+                "rel": "full",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/address/48d90d78-21db-4393-ad04-a619ff013d0b?v=full"
+              }
+            ],
+            "resourceVersion": "1.8"
+          },
+          "names": [
+            {
+              "display": "Umar Ahmed",
+              "uuid": "f76c8396-7d7e-47f3-bb16-40ff41e04988",
+              "givenName": "Umar",
+              "middleName": null,
+              "familyName": "Ahmed",
+              "familyName2": null,
+              "voided": false,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/name/f76c8396-7d7e-47f3-bb16-40ff41e04988"
+                },
+                {
+                  "rel": "full",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/name/f76c8396-7d7e-47f3-bb16-40ff41e04988?v=full"
+                }
+              ],
+              "resourceVersion": "1.8"
+            }
+          ],
+          "addresses": [
+            {
+              "display": "H #5 Street # 9 Bahria Phase IV",
+              "uuid": "48d90d78-21db-4393-ad04-a619ff013d0b",
+              "preferred": true,
+              "address1": "H #5 Street # 9 Bahria Phase IV",
+              "address2": null,
+              "cityVillage": null,
+              "stateProvince": null,
+              "country": null,
+              "postalCode": null,
+              "countyDistrict": null,
+              "address3": null,
+              "address4": null,
+              "address5": null,
+              "address6": null,
+              "startDate": null,
+              "endDate": null,
+              "latitude": null,
+              "longitude": null,
+              "voided": false,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/address/48d90d78-21db-4393-ad04-a619ff013d0b"
+                },
+                {
+                  "rel": "full",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/address/48d90d78-21db-4393-ad04-a619ff013d0b?v=full"
+                }
+              ],
+              "resourceVersion": "1.8"
+            }
+          ],
+          "attributes": [
+            {
+              "display": "Phone Number = 09009909900",
+              "uuid": "24f9a198-44e6-495f-b9bb-635d54d2a1af",
+              "value": "09009909900",
+              "attributeType": {
+                "uuid": "0b793530-3513-49e5-859d-028e7add15f8",
+                "display": "Phone Number",
+                "links": [
+                  {
+                    "rel": "self",
+                    "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/personattributetype/0b793530-3513-49e5-859d-028e7add15f8"
+                  }
+                ]
+              },
+              "voided": false,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/attribute/24f9a198-44e6-495f-b9bb-635d54d2a1af"
+                },
+                {
+                  "rel": "full",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/attribute/24f9a198-44e6-495f-b9bb-635d54d2a1af?v=full"
+                }
+              ],
+              "resourceVersion": "1.8"
+            },
+            {
+              "display": "rfid = 0002626340",
+              "uuid": "5b0d6427-4872-44b8-a0cd-93ba2532d0c9",
+              "value": "0002626340",
+              "attributeType": {
+                "uuid": "485ae7da-3cf2-4038-a738-fde27eb6fcd1",
+                "display": "rfid",
+                "links": [
+                  {
+                    "rel": "self",
+                    "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/personattributetype/485ae7da-3cf2-4038-a738-fde27eb6fcd1"
+                  }
+                ]
+              },
+              "voided": false,
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/attribute/5b0d6427-4872-44b8-a0cd-93ba2532d0c9"
+                },
+                {
+                  "rel": "full",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2/attribute/5b0d6427-4872-44b8-a0cd-93ba2532d0c9?v=full"
+                }
+              ],
+              "resourceVersion": "1.8"
+            }
+          ],
+          "voided": false,
+          "auditInfo": {
+            "creator": {
+              "uuid": "b1a32fd4-413e-11e8-abbc-b8ca3a85911a",
+              "display": "admin",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/user/b1a32fd4-413e-11e8-abbc-b8ca3a85911a"
+                }
+              ]
+            },
+            "dateCreated": "2018-04-25T14:02:11.000+0500",
+            "changedBy": {
+              "uuid": "b1a32fd4-413e-11e8-abbc-b8ca3a85911a",
+              "display": "admin",
+              "links": [
+                {
+                  "rel": "self",
+                  "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/user/b1a32fd4-413e-11e8-abbc-b8ca3a85911a"
+                }
+              ]
+            },
+            "dateChanged": "2018-04-25T14:02:11.000+0500"
+          },
+          "deathdateEstimated": false,
+          "birthtime": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/person/afdf026c-3595-4ebf-907a-0b88e82a4ad2"
+            }
+          ],
+          "resourceVersion": "1.11"
+        },
+        "voided": false,
+        "auditInfo": {
+          "creator": {
+            "uuid": "b1a32fd4-413e-11e8-abbc-b8ca3a85911a",
+            "display": "admin",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/user/b1a32fd4-413e-11e8-abbc-b8ca3a85911a"
+              }
+            ]
+          },
+          "dateCreated": "2018-04-25T14:02:11.000+0500",
+          "changedBy": {
+            "uuid": "b1a32fd4-413e-11e8-abbc-b8ca3a85911a",
+            "display": "admin",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/user/b1a32fd4-413e-11e8-abbc-b8ca3a85911a"
+              }
+            ]
+          },
+          "dateChanged": "2018-04-25T14:02:11.000+0500"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://115.186.183.109:8080/openmrs/ws/rest/v1/patient/afdf026c-3595-4ebf-907a-0b88e82a4ad2"
+          }
+        ],
+        "resourceVersion": "1.8"
+    }
+    ]
